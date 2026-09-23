@@ -1,0 +1,1 @@
+function e(e){let t=e.description?.split(`/`)[0]?.trim();return t?t.replace(/\s+Perpetual$/i,``):e.ticker.replace(/[-_/]?(USDT|USDC|USD1|USDS|BUSD|USD|EUR|PERP)$/i,``)||e.ticker}function t(e){let t=e.trim().toUpperCase();return t?`https://crypto-icons.ledger.com/${encodeURIComponent(t)}.png`:void 0}export{t as n,e as t};
